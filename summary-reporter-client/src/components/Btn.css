@@ -1,0 +1,59 @@
+.root,
+.root:link {
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  background-color: #19b5fe;
+  padding: 0.5rem 2rem;
+  margin: 0.5rem 0.5rem;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  font-size: inherit;
+  color: #fff;
+  box-shadow: 0 0.15rem 0.15rem #888;
+  backface-visibility: hidden;
+  transition: all 0.1s ease-out;
+}
+
+.root:hover {
+  box-shadow: 0 0.1rem 0.1rem #888;
+  transform: translateY(1px);
+}
+
+.root:active {
+  box-shadow: 0 0.05rem 0.05rem #888;
+  transform: translateY(2px);
+}
+
+.root.lrg {
+  padding: 1rem 2.5rem;
+  font-size: 1.5rem;
+  box-shadow: 0 0.2rem 0.2rem #888;
+}
+
+.root.lrg:hover {
+  box-shadow: 0 0.15rem 0.15rem #888;
+}
+
+.root.lrg:active {
+  box-shadow: 0 0.1rem 0.1rem #888;
+}
+
+.root.sml {
+  padding: 0.2rem 0.7rem;
+  font-size: 0.8rem;
+  box-shadow: 0 0.12rem 0.12rem #888;
+}
+
+.root.sml:hover {
+  box-shadow: 0 0.08rem 0.08rem #888;
+}
+
+.root.sml:active {
+  box-shadow: 0 0.04rem 0.04rem #888;
+}
+
+.root.red {
+  background-color: #f44248;
+}

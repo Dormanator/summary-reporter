@@ -1,0 +1,23 @@
+.root [class*="InputGroup__group"] {
+  justify-content: flex-start;
+}
+
+.root [class*="InputGroup__label"] {
+  font-size: 1.7rem;
+  border-bottom: 2px solid #19b5fe;
+  margin: 2rem 0;
+}
+
+.root [class*="LabeledInput__root"] {
+  flex-basis: 20%;
+  padding: 0 1rem;
+}
+
+.root [class*="LabeledInput__label"] {
+  font-size: 0.85rem;
+}
+
+.root [class*="LabeledInput__input"] {
+  font-size: 1rem;
+  appearance: textfield;
+}

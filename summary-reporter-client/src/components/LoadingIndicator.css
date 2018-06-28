@@ -1,0 +1,17 @@
+.root {
+  width: 8rem;
+  height: 8rem;
+  border: 1rem solid #eee;
+  border-top-color: #19b5fe;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

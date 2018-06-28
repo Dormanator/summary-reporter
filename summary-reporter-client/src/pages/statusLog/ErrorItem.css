@@ -1,0 +1,7 @@
+.root * {
+  font-size: 0.9rem;
+  border-top: 1px solid #f44248;
+  border-bottom: 1px solid #f44248;
+  padding: 1rem;
+  text-align: left;
+}

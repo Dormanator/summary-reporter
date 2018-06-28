@@ -1,0 +1,21 @@
+.root {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.marginMedTop {
+  margin-top: 3rem;
+}
+
+.marginMedBtm {
+  margin-bottom: 3rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.justifySpaceBetween {
+  justify-content: space-between;
+}

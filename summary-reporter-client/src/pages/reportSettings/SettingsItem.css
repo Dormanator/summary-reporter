@@ -1,0 +1,37 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 0 0 50%;
+  text-align: left;
+  position: relative;
+  min-height: 20rem;
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+.root:nth-child(1n) {
+  border-left: 2px solid #ccc;
+}
+
+.root:nth-child(2n) {
+  border-right: 2px solid #ccc;
+  border-left: 2px solid #ccc;
+}
+
+.info {
+  font-size: 1rem;
+}
+
+.require {
+  position: absolute;
+  display: inline-block;
+  padding: 0.3rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #f44248;
+  border-radius: 3px;
+  top: 3rem;
+  right: 1.5rem;
+}

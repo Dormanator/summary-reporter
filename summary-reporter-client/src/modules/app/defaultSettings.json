@@ -1,0 +1,15 @@
+{
+  "zeroCellValues": false,
+  "targetsForAllItems": false,
+  "reportTitle": "",
+  "groupBy": "",
+  "fullName": [],
+  "nameLabel": "",
+  "headers": [],
+  "footer": [""],
+  "reportIntervals": "",
+  "reportPeriod": [""],
+  "reportBasis": "",
+  "reportItems": [],
+  "targets": {}
+}

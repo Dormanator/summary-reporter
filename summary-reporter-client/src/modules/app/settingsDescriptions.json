@@ -1,0 +1,73 @@
+{
+  "groupBy": {
+    "desc":
+      "The data point with identification information for each entry. This may be a name field or email field. Inconsistent entries for this data point will prevent all the data for one entry being collected together. Hint: emails may be more consistently entered in your data than names. ",
+    "required": true,
+    "input": "select"
+  },
+  "reportTitle": {
+    "desc": "Title across the top of each report.",
+    "required": false,
+    "input": "text"
+  },
+  "fullName": {
+    "desc":
+      "This is where you choose the data point(s) will represent the full name of each entry, which will be featured in the report header for that entry. It can be a single data point or multiple, such as first and last name.",
+    "required": true,
+    "input": "multi"
+  },
+  "nameLabel": {
+    "desc":
+      "Tell use what to label the full name you entered in the report header. Will default to \"Name\" if this is left blank.",
+    "required": false,
+    "input": "text"
+  },
+  "headers": {
+    "desc":
+      "A list of all the data points you want listed in your report header. This could include things like other identification data or the report year or month. Note: No need to select a name entry to go here. When you tell us how to construct each entries' full name it will automatically be included in your report header.",
+    "required": false,
+    "input": "multi"
+  },
+  "footer": {
+    "desc":
+      "A list of the items you want to appear across the footer. For instance, if you want a 'Signature' with a spot for a 'Date' on your report just list 'Signature' in and input field, and another input field and enter 'Date. These items will be equally spaced along the footer.",
+    "required": false,
+    "input": "group"
+  },
+  "reportIntervals": {
+    "desc":
+      "This is the data point that contains the time-series data that will run along the x-axis of your summary report. This may be a a data point such as Month or Year.",
+    "required": true,
+    "input": "select"
+  },
+  "reportPeriod": {
+    "desc":
+      "This is a list of values representing the time period you wish your report to capture. For example, it may be a list of months, days, or years you want your summarized report to show data for. This is each value of time you wish to feature on the x-axis of your summary report",
+    "required": true,
+    "input": "group"
+  },
+  "reportBasis": {
+    "desc":
+      "This is a label for the items begin reported on along the y-axis for each entry. It is not a data point, but what you like to label each item that is being reported on over time in your report. This may be something like 'Objectives', 'Sales Goals', or 'Hours Reported'.",
+    "required": true,
+    "input": "text"
+  },
+  "reportItems": {
+    "desc":
+      "This is the list of items on the y-axis of the summary report. Each item featured on this y-axis can feature counts for the time intervals featured on the y-axis. They may be the performance objectives, sales goals, hours worked, or something equivalent that you want time-based counts on for each entry in your data.",
+    "required": true,
+    "input": "multi"
+  },
+  "zeroCellValues": {
+    "desc":
+      "Zero-out empty cells. If there is no data for a cell in your report do you want a zero to appear instead?",
+    "required": false,
+    "input": "checkbox"
+  },
+  "targetsForAllItems": {
+    "desc":
+      "This should be left unset is you only want to set perfomance targets for the Report Items which data exists for an entry. If set you will be prompted to enter targets for all Report Items for each entry, even if no data exists for an entry's corresponding Report Item.",
+    "required": false,
+    "input": "checkbox"
+  }
+}

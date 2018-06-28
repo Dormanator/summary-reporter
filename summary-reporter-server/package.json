@@ -1,0 +1,44 @@
+{
+  "author": "Ryan Dorman",
+  "name": "html2pdf-chrome",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dormanator/html2pdf-chrome"
+  },
+  "private": false,
+  "engines": {
+    "node": "8.9.4",
+    "npm": "6.1.0"
+  },
+  "main": "./lib/index.js",
+  "dependencies": {
+    "body-parser": "*",
+    "compression": "*",
+    "cors": "*",
+    "dotenv": "^6.0.0",
+    "express": "*",
+    "mongoose": "^5.1.4",
+    "morgan": "*",
+    "node-uuid": "*",
+    "simple-headless-chrome": "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./lib/index.js"
+  },
+  "readmeFilename": "README.md",
+  "description": "A backend service for SPAs based on simple-headless-chrome, which uses Headless Chrome to generate pdfs, via a webservice. Runs using node.js.",
+  "bugs": {
+    "url": "https://github.com/Dormanator/html2pdf-chrome/issues"
+  },
+  "keywords": [
+    "pdf",
+    "html",
+    "nodejs",
+    "converter",
+    "microservice",
+    "api"
+  ],
+  "license": "MIT"
+}

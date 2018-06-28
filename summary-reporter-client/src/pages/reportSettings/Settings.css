@@ -1,0 +1,6 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-collapse: collapse;
+}

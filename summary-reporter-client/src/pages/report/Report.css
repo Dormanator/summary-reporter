@@ -1,0 +1,15 @@
+.root,
+.reports {
+  margin: 0 auto;
+  width: inherit;
+}
+
+.downloads .marginSmlR {
+  margin-right: 4rem;
+}
+
+.downloads {
+  display: flex;
+  align-items: center;
+  height: 8rem;
+}
