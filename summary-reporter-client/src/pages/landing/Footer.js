@@ -6,11 +6,18 @@ const Footer = props => {
     <footer className={Style.root}>
       <p>
         Summary Reporter is free and open-source. Check it out on{" "}
-        <a href="https://github.com/Dormanator/summary-reporter">Github!</a>
+        <a
+          href="https://github.com/Dormanator/summary-reporter"
+          className={Style.link}
+        >
+          Github!
+        </a>
       </p>
       <p>
         Questions or Comments?{" "}
-        <a href="mailto:Contact@RyanDorman.tech">Contact@RyanDorman.tech</a>
+        <a href="mailto:Contact@RyanDorman.tech" className={Style.link}>
+          Contact@RyanDorman.tech
+        </a>
       </p>
     </footer>
   );

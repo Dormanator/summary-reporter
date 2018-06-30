@@ -1,0 +1,10 @@
+.root {
+  padding: 5rem 0 10rem 0;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 3rem;
+}

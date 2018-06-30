@@ -4,7 +4,7 @@ import Style from "./Hero.css";
 
 const Hero = props => {
   return (
-    <section className={Style.root}>
+    <header className={Style.root}>
       <div className={Style.content}>
         <h1 className={Style.title}>Summary Reporter</h1>
         <h2 className={Style.subtitle}>
@@ -14,7 +14,7 @@ const Hero = props => {
           Get Started!
         </Btn>
       </div>
-    </section>
+    </header>
   );
 };
 

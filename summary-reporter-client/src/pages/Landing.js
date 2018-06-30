@@ -1,12 +1,15 @@
 import React from "react";
 import Hero from "./landing/Hero";
+import Features from "./landing/Features";
+import Details from "./landing/Details";
 import Footer from "./landing/Footer";
-import Style from "./landing/Landing.css";
 
 const Landing = props => {
   return (
-    <div className={Style.root}>
+    <div>
       <Hero />
+      <Features />
+      <Details />
       <Footer />
     </div>
   );
