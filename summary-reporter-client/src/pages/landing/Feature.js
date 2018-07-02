@@ -6,7 +6,7 @@ import Style from "./Feature.css";
 const Feature = ({ icon, title, text }) => {
   return (
     <div className={Style.root}>
-      <Icons icon={icon} />
+      <Icons icon={icon} modifiers={["feature"]} />
       <h3 className={Style.title}>{title}</h3>
       <p>{text}</p>
     </div>

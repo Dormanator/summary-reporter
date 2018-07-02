@@ -10,8 +10,8 @@ const Footer = props => {
           href="https://github.com/Dormanator/summary-reporter"
           className={Style.link}
         >
-          Github!
-        </a>
+          Github
+        </a>!
       </p>
       <p>
         Questions or Comments?{" "}

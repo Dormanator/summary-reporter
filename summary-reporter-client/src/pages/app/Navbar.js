@@ -13,7 +13,6 @@ const Navbar = ({ errorFlash }) => {
           alt="Summary Reporter Home"
           className={Style.brandImg}
         />
-        &nbsp; Summary Reporter
       </Link>
       <ul className={Style.items}>
         <li>

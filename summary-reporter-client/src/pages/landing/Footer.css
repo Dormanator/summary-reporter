@@ -1,8 +1,9 @@
 .root {
-  height: 4rem;
-  background-color: #444;
-  color: #fff;
+  height: 5rem;
+  background-color: rgb(68, 68, 68);
+  color: rgb(255, 255, 255);
   font-size: 1rem;
+  letter-spacing: 0.05rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -12,15 +13,14 @@
 .link:visited {
   display: inline-block;
   text-decoration: none;
-  color: #fff;
-  background-color: #444;
-  font-weight: 600;
+  background-color: rgb(68, 68, 68);
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(25, 181, 254);
   transition: all 0.2s;
 }
 
 .link:hover,
 .link:active {
-  color: #19b5fe;
+  background-color: rgb(25, 181, 254);
   box-shadow: 0 1rem 2rem rgba(80, 80, 80, 0.4);
-  transform: rotate(5deg) scale(1.25);
 }

@@ -3,7 +3,7 @@
   top: 3rem;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #f44248;
+  background-color: #ff7d6d;
   width: 80%;
   padding: 1rem;
   margin: 3rem;
@@ -11,7 +11,7 @@
   color: #fff;
   text-align: center;
   border-radius: 5px;
-  border-color: #e0282e;
+  border-color: #bc8279;
   box-shadow: 0 0.25rem 0.5rem #ccc;
   z-index: 9999;
 }
@@ -31,6 +31,5 @@
 }
 
 .close:hover {
-  color: #ddd;
-  background-color: #e0282e;
+  color: #ccc;
 }

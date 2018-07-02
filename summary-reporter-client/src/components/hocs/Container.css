@@ -1,18 +1,25 @@
 .root {
-  width: 80%;
-  margin: 0 auto;
   text-align: center;
 }
 
+.content {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .title {
-  padding: 1.5rem;
+  padding: 1.5rem 50rem;
   margin-bottom: 3rem;
-  color: #19b5fe;
+  background: linear-gradient(
+    to right top,
+    rgba(208, 245, 255, 1),
+    rgba(0, 128, 197, 1)
+  );
+  color: #fff;
   font-size: 3rem;
   font-weight: 300;
-  text-shadow: 0 0.01em 0.01rem #888;
   text-transform: uppercase;
-  border-bottom: 1px solid #ddd;
+  letter-spacing: 1rem;
 }
 
 .subtitle {

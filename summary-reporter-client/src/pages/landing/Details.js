@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import Detail from "./Detail";
 import entryExImg from "../../images/entry-example.png";
 import countsExImg from "../../images/counts-example.png";
+import reportExImg from "../../images/report-example.png";
 import Style from "./Details.css";
 
 const Details = props => {
@@ -50,6 +51,19 @@ Details.defaultProps = {
         src: countsExImg,
         alt:
           "Example of counts in a dataset that represent progress individual entries over time"
+      }
+    },
+    {
+      title: "Do you want",
+      list: [
+        "Entries for individuals to be summarized into reports",
+        "Tables on reports that present and sum time-series data to show progress",
+        "To define targets for reported data to show remaining progress",
+        "Print-ready pdfs of your summarized reports"
+      ],
+      img: {
+        src: reportExImg,
+        alt: "Example of sumamry report based on previous data examples"
       }
     }
   ]

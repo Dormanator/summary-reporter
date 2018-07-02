@@ -1,59 +1,80 @@
 .root,
 .root:link {
-  text-decoration: none;
+  text-align: center;
   display: inline-block;
   cursor: pointer;
-  background-color: #19b5fe;
   padding: 0.5rem 2rem;
   margin: 0.5rem 0.5rem;
   outline: none;
   border: none;
-  border-radius: 3px;
-  font-size: inherit;
-  color: #fff;
-  box-shadow: 0 0.15rem 0.15rem #888;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 3rem;
+  background: rgba(25, 181, 254, 0.8);
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  letter-spacing: 0.15rem;
   backface-visibility: hidden;
   transition: all 0.1s ease-out;
 }
 
 .root:hover {
-  box-shadow: 0 0.1rem 0.1rem #888;
-  transform: translateY(1px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  background: rgba(25, 181, 254, 1);
 }
 
 .root:active {
-  box-shadow: 0 0.05rem 0.05rem #888;
-  transform: translateY(2px);
+  outline: none;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+  background: rgba(25, 181, 254, 1);
 }
 
-.root.lrg {
-  padding: 1rem 2.5rem;
+.root.hero {
   font-size: 1.5rem;
-  box-shadow: 0 0.2rem 0.2rem #888;
+  padding: 1.25rem 4rem;
+  background: rgb(255, 255, 255);
+  color: rgb(68, 68, 68);
 }
 
-.root.lrg:hover {
-  box-shadow: 0 0.15rem 0.15rem #888;
+.root.hero:hover {
+  background: rgba(255, 255, 255, 0.8);
+  transform: scale(1.05);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
-.root.lrg:active {
-  box-shadow: 0 0.1rem 0.1rem #888;
+.root.hero:active {
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 
 .root.sml {
   padding: 0.2rem 0.7rem;
   font-size: 0.8rem;
-  box-shadow: 0 0.12rem 0.12rem #888;
 }
 
 .root.sml:hover {
-  box-shadow: 0 0.08rem 0.08rem #888;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
 }
 
 .root.sml:active {
-  box-shadow: 0 0.04rem 0.04rem #888;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.2);
 }
 
 .root.red {
-  background-color: #f44248;
+  background: rgba(255, 125, 109, 0.8);
+}
+
+.root.red:hover,
+.root.red:active {
+  background: rgba(255, 125, 109, 1);
+}
+
+.root.blue {
+  color: rgb(255, 255, 255);
+  background: rgba(25, 181, 254, 0.8);
+}
+
+.root.blue:hover,
+.root.blue:active {
+  background: rgba(25, 181, 254, 1);
 }

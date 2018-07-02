@@ -26,25 +26,25 @@ const Features = props => {
 Features.defaultProps = {
   content: [
     {
-      icon: "upload",
+      icon: "icon-upload",
       title: "Upload",
       text:
         "Upload your excel files that contain rows of entries for individuals, reporting time-series counts across columns"
     },
     {
-      icon: "settings",
+      icon: "icon-cogs",
       title: "Adjust Settings",
       text:
         "Helps us understand your data by determining which settings are appropriate to summarize it into reports"
     },
     {
-      icon: "targets",
+      icon: "icon-target",
       title: "Set Targets",
       text:
         "Your data points will be summed up across the time interval you specify and compared against the targets you set"
     },
     {
-      icon: "report",
+      icon: "icon-report",
       title: "Review Reports",
       text:
         "Receive print-ready pdfs and export your settings for next time, or re-adjust the settings as needed"

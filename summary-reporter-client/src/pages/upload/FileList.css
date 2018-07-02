@@ -21,6 +21,7 @@
 
 .remove {
   font-weight: 600;
+  font-size: 2rem;
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -29,21 +30,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1rem;
-  height: 1rem;
-  color: #f44248;
-  border-radius: 3px;
+  color: rgba(255, 125, 109, 0.8);
   transition: all 0.15s ease-in;
 }
 
 .remove:hover {
-  background-color: #f44248;
-  color: #fff;
+  color: rgba(255, 125, 109, 1);
 }
 
 .remove:active {
-  border-color: #e0282e;
-}
-
-.file.remove {
+  color: rgba(255, 125, 109, 1);
 }

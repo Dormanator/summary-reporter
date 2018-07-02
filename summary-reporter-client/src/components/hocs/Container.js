@@ -6,8 +6,10 @@ const Container = ({ title, subtitle, children }) => {
   return (
     <section className={Style.root}>
       <h2 className={Style.title}>{title}</h2>
-      <h3 className={Style.subtitle}>{subtitle}</h3>
-      {children}
+      <div className={Style.content}>
+        <h3 className={Style.subtitle}>{subtitle}</h3>
+        {children}
+      </div>
     </section>
   );
 };

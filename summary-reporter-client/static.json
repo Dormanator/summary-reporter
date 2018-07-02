@@ -1,6 +1,7 @@
 {
   "root": "build/",
   "routes": {
+    "/samples/*": "/samples/",
     "/**": "index.html"
   },
   "proxies": {
