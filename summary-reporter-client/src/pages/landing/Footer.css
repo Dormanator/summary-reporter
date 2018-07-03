@@ -24,3 +24,21 @@
   background-color: rgb(25, 181, 254);
   box-shadow: 0 1rem 2rem rgba(80, 80, 80, 0.4);
 }
+
+@media (max-width: 56.25em) {
+  .root {
+    text-align: center;
+
+    flex-direction: column;
+  }
+
+  .text {
+    padding: 0.5rem 0;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .root {
+    height: 8rem;
+  }
+}

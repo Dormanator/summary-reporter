@@ -28,8 +28,6 @@ class Reports extends Component {
     }
   }
 
-  prepareSettingsDowload() {}
-
   render() {
     const { data, settings, reports } = this.props,
       { reportDownloadUrl } = this.state,

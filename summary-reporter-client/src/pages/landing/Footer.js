@@ -4,7 +4,7 @@ import Style from "./Footer.css";
 const Footer = props => {
   return (
     <footer className={Style.root}>
-      <p>
+      <p className={Style.text}>
         Summary Reporter is free and open-source. Check it out on{" "}
         <a
           href="https://github.com/Dormanator/summary-reporter"
@@ -13,7 +13,7 @@ const Footer = props => {
           Github
         </a>!
       </p>
-      <p>
+      <p className={Style.text}>
         Questions or Comments?{" "}
         <a href="mailto:Contact@RyanDorman.tech" className={Style.link}>
           Contact@RyanDorman.tech

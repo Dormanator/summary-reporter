@@ -8,7 +8,8 @@
 }
 
 .title {
-  padding: 1.5rem 50rem;
+  width: 100%;
+  padding: 1.5rem 0;
   margin-bottom: 3rem;
   background: linear-gradient(
     to right top,

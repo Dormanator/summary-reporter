@@ -5,6 +5,7 @@ import Row from "../components/hocs/Row";
 import Dropzone from "react-dropzone";
 import FileLists from "./upload/FileLists";
 import Btn from "../components/Btn";
+import MobileWarning from "./upload/MobileWarning";
 import Style from "./upload/Upload.css";
 
 class Upload extends Component {
@@ -13,7 +14,8 @@ class Upload extends Component {
     binaryDataList: [],
     textDataList: [],
     binaryData: [],
-    textData: []
+    textData: [],
+    mobileWarningAccepted: false
   };
 
   componentDidMount() {
@@ -104,6 +106,10 @@ class Upload extends Component {
         title="Upload"
         subtitle="Upload your data, and any settings files you got from a previous use below."
       >
+        <MobileWarning
+          accepted={this.state.mobileWarningAccepted}
+          handleAccept={() => this.setState({ mobileWarningAccepted: true })}
+        />
         <Dropzone
           accept=".xls,.xlsx,.json"
           className={Style.dropZone}

@@ -78,3 +78,9 @@
 .root.blue:active {
   background: rgba(25, 181, 254, 1);
 }
+
+@media (max-width: 37.5em) {
+  .root.hero {
+    padding: 1rem 3rem;
+  }
+}

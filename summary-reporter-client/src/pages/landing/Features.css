@@ -10,3 +10,9 @@
   margin-bottom: 5rem;
   letter-spacing: 0.5rem;
 }
+
+@media (max-width: 75em) {
+  .title {
+    font-size: 2rem;
+  }
+}

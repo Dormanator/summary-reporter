@@ -23,3 +23,15 @@
 .justifySpaceAround {
   justify-content: space-around;
 }
+
+@media (max-width: 75em) {
+  .root {
+    width: 95%;
+  }
+}
+
+@media (max-width: 56.25em) {
+  .flex {
+    flex-direction: column;
+  }
+}

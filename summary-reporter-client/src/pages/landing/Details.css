@@ -16,3 +16,10 @@
   letter-spacing: 0.5rem;
   text-transform: uppercase;
 }
+
+@media (max-width: 75em) {
+  .title {
+    font-size: 2rem;
+    margin-bottom: 4rem;
+  }
+}
